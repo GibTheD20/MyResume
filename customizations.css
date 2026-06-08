@@ -1,5 +1,7 @@
 body {
     background: linear-gradient(to bottom right, white,black);
+    background-repeat:no repeat;
+    background-attachment:fixed;
     color:blue;
     text-align: center;
     height: 100vh;
