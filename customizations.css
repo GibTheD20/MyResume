@@ -1,13 +1,17 @@
 body {
     background-color: rgb(84, 85, 85);
-    color: (red green blue);
+    color: (blue);
     text-align: center;
 }
 
 h1 {
-    color:red
+    background-color: rgb(84, 85, 85);
+    color:red;
+    text-align:left;
 }
 
 p {
-    color:azure
+    background-color:bisque;
+    color:rgb(0, 0, 0);
+    text-align: left;
 }
