@@ -11,11 +11,11 @@ body {
 
 h1 {
   
-    color:red;
+    color:black;
     text-shadow:
         0 0 5px white,
-        0 0 10px cyan,
-        0 0 20px cyan;
+        0 0 10px white,
+        0 0 20px gold;
     text-align:center;
 }
 
