@@ -2,25 +2,26 @@ body {
     background: linear-gradient(to bottom right, white,black);
     background-repeat:no-repeat;
     background-attachment:fixed;
-    font-family:"Courier New", monospace;
     color:white;
     text-align: center;
     height: 100vh;
     margin:0;
-}
+} /* Background is temporarily finished, add unoffesnive animation or possible .png image file. */
 
 h1 {
-  
+    
+    font-family:"Courier New", monospace;
+    
     color:black;
     text-shadow:
         0 0 5px white,
         0 0 10px white,
         0 0 20px gold;
     text-align:center;
-}
+} /*Cont. work on header font/color to stand out against background*/
 
 p {
   
     color:black;
     text-align:center;
-}
+} /*Complete work in progress*/
