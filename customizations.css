@@ -25,3 +25,17 @@ p {
     color:black;
     text-align:center;
 } /*Complete work in progress*/
+
+button {
+    background: black;
+    color:gold;
+
+    border: 2px solid gold;
+    paddings: 10px 20px;
+    font-size: 16px;
+    transition:0.3s;
+}
+    
+button:hover {
+    transform:scale(1.2);
+}
