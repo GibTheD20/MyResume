@@ -2,6 +2,7 @@ body {
     background: linear-gradient(to bottom right, white,black);
     background-repeat:no repeat;
     background-attachment:fixed;
+    font-family:"Courier New", monospace;
     color:blue;
     text-align: center;
     height: 100vh;
