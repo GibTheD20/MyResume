@@ -1,9 +1,9 @@
 body {
     background: linear-gradient(to bottom right, white,black);
-    background-repeat:no repeat;
+    background-repeat:no-repeat;
     background-attachment:fixed;
     font-family:"Courier New", monospace;
-    color:blue;
+    color:white;
     text-align: center;
     height: 100vh;
     margin:0;
@@ -12,6 +12,10 @@ body {
 h1 {
   
     color:red;
+    text-shadow:
+        0 0 5px white,
+        0 0 10px cyan,
+        0 0 20px cyan;
     text-align:center;
 }
 
