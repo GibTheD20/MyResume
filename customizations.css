@@ -2,6 +2,8 @@ body {
     background: linear-gradient(to bottom right, white,black);
     color:blue;
     text-align: center;
+    height: 100vh;
+    margin:0;
 }
 
 h1 {
