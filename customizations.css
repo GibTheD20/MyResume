@@ -6,7 +6,7 @@ body {
     text-align: center;
     height: 100vh;
     margin:0;
-} /* Background is temporarily finished, add unoffesnive animation or possible .png image file. */
+} /*TODO: add unoffensive animation or possible .png image file. */
 
 h1 {
     
@@ -18,13 +18,15 @@ h1 {
         0 0 10px gold,
         0 0 20px gold;
     text-align:center;
-} /*Cont. work on header font/color to stand out against background*/
+} /*TODO: work on header font/color to stand out against background*/
 
 p {
   
     color:black;
     text-align:center;
-} /*Complete work in progress*/
+} 
+
+/*TODO: figure out how to make my buttons not suck*/
 
 button {
     background: black;
