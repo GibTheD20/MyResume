@@ -34,7 +34,7 @@ button {
 
     border: 2px solid gold;
     border-radius:20px !important;
-    paddings: 10px 20px;
+    padding: 10px 20px;
     font-size: 16px;
     transition:0.3s;
     box-shadow: 0 0 10px gold;
@@ -43,4 +43,26 @@ button {
 button:hover {
     transform:scale(1.2);
     box-shadow: 0 0 25px gold;
+}
+
+.calculator {
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    gap: 5px;
+}
+
+.calculator-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+#display{
+    width:255px;
+    margin-top: 50px;
 }
