@@ -9,11 +9,20 @@ function press(value) {
 function cleardisplay() {
     document.getElementById("display").value = "";
 }
+
 function calculate() {
-    const display = document.getElementById("display");
+   alert("calculate function called, this is a test.")
+    let display = document.getElementById("display");
+
+   try {
     display.value = eval(display.value);
+   } catch {
+    display.value = "You broke it... Great job."
+   }
 }
+
 function sqr() {
     const display = document.getElementById("display");
-    display.value = eval(display.value * display.value);
+    let num = Number(display.value);
+    display.value = num * num;
 }
