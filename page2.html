@@ -3,41 +3,57 @@
 
 <head>
     <title>Calculator</title>
-    <link rel="stylesheet" href="customizations.css">
+    <link rel="stylesheet" href="calc-cust.css">
 </head>
 
 <body> 
+<div class="calc-section">
+    
+<div class="side-text">
+    This is a test
+</div>
 
-    <input id="display" readonly>
+
     
 <div class="calculator-wrapper">
-    <div class="calculator">
-   
-    <button onclick="press('0')">0</button>
-    <button onclick="press('1')">1</button>
-    <button onclick="press('2')">2</button>
-    <button onclick="press('+')">+</button>
-
-    <button onclick="press('3')">3</button>
-    <button onclick="press('4')">4</button>
-    <button onclick="press('5')">5</button>
-    <button onclick="press('-')">-</button>
-
-    <button onclick="press('6')">6</button>
-    <button onclick="press('7')">7</button>
-    <button onclick="press('8')">8</button>
-    <button onclick="press('*')">*</button>
     
-    <button onclick="press('9')">9</button>
-    <button onclick="cleardisplay()">C</button>
-    <button onclick="sqr()">**</button>
-    <button onclick="press('/')">/</button>
+    <div class="calculator">
+        
+    <input id="display" readonly>
 
-    <button onclick="calculate()">=</button>
+    <button class="calc-btn" onclick="press('0')">0</button>
+    <button class="calc-btn" onclick="press('1')">1</button>
+    <button class="calc-btn" onclick="press('2')">2</button>
+    <button class="calc-btn" onclick="press('+')">+</button>
+
+    <button class="calc-btn" onclick="press('3')">3</button>
+    <button class="calc-btn" onclick="press('4')">4</button>
+    <button class="calc-btn" onclick="press('5')">5</button>
+    <button class="calc-btn" onclick="press('-')">-</button>
+
+    <button class="calc-btn" onclick="press('6')">6</button>
+    <button class="calc-btn" onclick="press('7')">7</button>
+    <button class="calc-btn" onclick="press('8')">8</button>
+    <button class="calc-btn" onclick="press('*')">*</button>
+    
+    <button class="calc-btn" onclick="press('9')">9</button>
+    <button class="calc-btn" onclick="cleardisplay()">C</button>
+    <button class="calc-btn" onclick="sqr()">**</button>
+    <button class="calc-btn" onclick="press('/')">/</button>
+
+    <button type="button" class="calc-btn" onclick="calculate()">Enter</button>
 
 </div>
     </div>
+        </div>
+
+
+<div class = "side-text">
+    Right side test
+</div>
+           
+        
 
      
-    <script src=script.js></script>
+    <script src="script.js"></script>
     </body>
