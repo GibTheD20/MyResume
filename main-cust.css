@@ -28,7 +28,7 @@ p {
 
 /*TODO: figure out how to make my buttons not suck*/
 
-button {
+.site-button {
     background: black;
     color:gold;
 
@@ -44,3 +44,4 @@ button:hover {
     transform:scale(1.2);
     box-shadow: 0 0 25px gold;
 }
+
