@@ -1,1 +1,4 @@
-.frogger_lines
+.frogger_background{
+backgroundcolor: linear-gradient(to top, green,darkgreen);
+
+}
