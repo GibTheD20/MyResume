@@ -37,4 +37,10 @@ function adjustFontSize() {
     } else {
         display.style.fontSize = "25px";
     }
-     
+}
+ 
+    function updateDisplay(value);
+const display = document.getElementById("display")
+display.value = value;
+adjustFontSize();
+}
