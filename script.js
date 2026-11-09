@@ -26,3 +26,15 @@ function sqr() {
     let num = Number(display.value);
     display.value = num * num;
 }
+function adjustFontSize() {
+    const display = document.getElementById("display");
+    const length = display.value.length;
+    
+    if (length > 12) {
+        display.style.fontSize = "16px";
+    } else if (length > 9) {
+        display.style.fontSize = "20px";
+    } else {
+        display.style.fontSize = "25px";
+    }
+     
