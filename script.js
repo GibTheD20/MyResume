@@ -1,30 +1,51 @@
  function goToPage2() {
     window.location.href = "/calculator/";
+ }
 
 function press(value) {
     document.getElementById("display").value += value;
+    adjustFontSize();
 }
 
 function cleardisplay() {
     document.getElementById("display").value = "";
+    adjustFontSize();
 }
 
 function calculate() {
-   alert("calculate function called, this is a test.")
-    let display = document.getElementById("display");
+   //alert("calculate function called, this is a test.")
+     const display = document.getElementById("display");
 
    try {
-    display.value = eval(display.value);
-   } catch {
-    display.value = "You broke it... Great job."
-   }
+        display.value = math.evaluate(display.value);
+        adjustFontSize();
+    } catch (error) {
+        display.value = "Invalid expression";
+    }
 }
 
 function sqr() {
     const display = document.getElementById("display");
-    let num = Number(display.value);
-    display.value = num * num;
+
+    if (display.value.trim() === "") {
+        return;
+    }
+
+    try {
+        const num = math.evaluate(display.value);
+
+        if (typeof num !== "number" || !Number.isFinite(num)) {
+            throw new Error("Invalid number");
+        }
+
+        display.value = num * num;
+        adjustFontSize();
+
+    } catch (error) {
+        display.value = "Invalid expression";
+    }
 }
+
 function adjustFontSize() {
     const display = document.getElementById("display");
     const length = display.value.length;
