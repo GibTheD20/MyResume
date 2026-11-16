@@ -21,11 +21,13 @@ h1 {
 
 } /*TODO: work on header font/color to stand out against background*/
 
+/* Paragraphs */
 p {
-  
-    color:black;
-    text-align:center;
-} 
+    color: #d1d5db;
+    text-align: center;
+    line-height: 1.7;
+}
+
 
 /*TODO: figure out how to make my buttons not suck*/
 
