@@ -1,3 +1,10 @@
+.home-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px 20px 40px;
+    text-align: center;
+}
+
 body {
     margin: 0;
     min-height: 100vh;
@@ -56,4 +63,12 @@ p {
     background: #30343d;
     border-color: #f0c75e;
     transform: translateY(-3px);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
 }
