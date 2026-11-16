@@ -44,5 +44,5 @@ const display = document.getElementById("display");
 display.value = value;
     }
 function goToPage3() {
- window.location.href = "page3.html":
+ window.location.href = "Page3.html":
 }
