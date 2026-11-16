@@ -51,8 +51,9 @@ p {
         border-color 0.2s ease;
 }
     
-button:hover {
-    transform:scale(1.2);
-    box-shadow: 0 0 25px gold;
+/* Button hover */
+.site-button:hover {
+    background: #30343d;
+    border-color: #f0c75e;
+    transform: translateY(-3px);
 }
-
