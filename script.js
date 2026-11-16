@@ -1,6 +1,5 @@
  function goToPage2() {
-    window.location.href = "page2.html";
-}
+    window.location.href = "/calculator/";
 
 function press(value) {
     document.getElementById("display").value += value;
