@@ -72,11 +72,3 @@ p {
     gap: 15px;
     margin-top: 30px;
 }
-
-.home-content {
-    outline: 3px solid red;
-}
-
-.button-container {
-    outline: 3px solid lime;
-}
