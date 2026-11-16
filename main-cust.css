@@ -31,16 +31,24 @@ p {
 
 /*TODO: figure out how to make my buttons not suck*/
 
+/* Buttons */
 .site-button {
-    background: black;
-    color:gold;
+    background: #22252c;
+    color: #f0c75e;
 
-    border: 2px solid gold;
-    border-radius:20px !important;
-    padding: 10px 20px;
+    border: 1px solid #a88a45;
+    border-radius: 8px;
+
+    padding: 12px 24px;
     font-size: 16px;
-    transition:0.3s;
-    box-shadow: 0 0 10px gold;
+    font-family: inherit;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        border-color 0.2s ease;
 }
     
 button:hover {
