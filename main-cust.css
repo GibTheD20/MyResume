@@ -5,18 +5,20 @@ body {
     color: #e5e5e5;
     font-family: Verdana, sans-serif;
 }
-} /*TODO: add unoffensive animation or possible .png image file. */
+ /*TODO: add unoffensive animation or possible .png image file. */
 
+/* Main heading */
 h1 {
-    
-    font-family:"Bebas Neue", monospace;
-    
-    color:black;
-    text-shadow:
-        0 0 5px gold,
-        0 0 10px gold,
-        0 0 20px gold;
-    text-align:center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+
+    color: #f0c75e;
+    text-align: center;
+
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
 } /*TODO: work on header font/color to stand out against background*/
 
 p {
