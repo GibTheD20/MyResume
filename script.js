@@ -1,4 +1,4 @@
-function goToPage2() {
+ function goToPage2() {
     window.location.href = "page2.html";
 }
 
@@ -39,7 +39,7 @@ function adjustFontSize() {
     }
 }
  
-    function updateDisplay(value);
+    function updateDisplay(value) {
 const display = document.getElementById("display")
 display.value = value;
 adjustFontSize();
