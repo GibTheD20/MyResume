@@ -3,7 +3,7 @@
  }
 
 function goToFrogger() {
- window.location.href = "frogger.html";
+ window.location.href = "/frogger/frogger.html";
 }
 
 //Branch test
