@@ -1,4 +1,9 @@
-<body> .frogger_background{
-backgroundcolor: linear-gradient(to top, green,darkgreen);
+#game-board{
+    display:grid;
+    grid-template-columns: repeat(20, 1fr);
+}
 
+.cell{
+    border: 1px solid black;
+    aspect-ratio: 1;
 }
