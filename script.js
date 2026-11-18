@@ -66,3 +66,4 @@ display.value = value;
 function goToPage3() {
  window.location.href = "Page3.html";
 }
+//Branch test
