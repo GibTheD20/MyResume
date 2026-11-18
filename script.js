@@ -1,8 +1,8 @@
- function goToPage2() {
+ function goToCalculator() {
     window.location.href = "/calculator/";
  }
 
-function goToPage3() {
+function goToFrogger() {
  window.location.href = "frogger.html";
 }
 
